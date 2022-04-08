@@ -19,7 +19,7 @@ const getTasks = (req,res)=>{
 }
 
 const getTask = (req,res)=>{
-    Task.course[0].find({'name':req.body.name}).exec().
+    Task.find({'_id':req.params._id}).exec().
     then(results=>{
         res.json(results);
     })

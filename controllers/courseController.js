@@ -24,24 +24,23 @@ const getCourses = (req,res)=>{
 }
 
 const getCourse = (req,res)=>{
-    Course.findOne({"name":req.body.name}).exec()
+    Course.findOne({"_id":req.params._id}).exec()
     .then(results=>{
         res.json(results);
     })
     .catch(error=>res.status(500).send(error));
 }
 
-const updateCourse = (req,res)=>{
-    Course.findOne({"name":req.body.course}).exec()
-    .then(results=>{
-        results.task.push(req.body.description);
-    })
-    .catch(error=>res.status(500).send(error));
-}
+// const updateCourse = (req,res)=>{
+//     Course.findOne({"name":req.body.course}).exec()
+//     .then(results=>{
+//         results.task.push(req.body.description);
+//     })
+//     .catch(error=>res.status(500).send(error));
+// }
 
 module.exports = {
     postCourse,
     getCourses,
-    getCourse,
-    updateCourse
+    getCourse
 };
