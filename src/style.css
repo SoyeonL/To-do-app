@@ -1,0 +1,75 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e6ccff;
+}
+
+.wrapper  {
+   background-color: #f3e6ff;
+   border: 2px solid white;
+   border-radius: 1rem;
+   max-width: 700px;
+   padding: .5rem;
+   margin: auto;
+   min-height: 630px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+form input, form button, form select {
+    margin: .3rem;
+}
+
+form, .task-container {
+    margin: auto;
+    max-width: 450px;
+}
+
+.task-container {
+    margin: auto;
+    max-width: 450px;
+}
+
+form button {
+    border-radius: .5rem;
+    background-color: white;
+    padding: .4rem;
+    cursor: pointer;
+    border-color: #e6ccff;
+    transition-duration: 0.4s;
+}
+
+form button:hover {
+    background-color: #e6ccff;
+    color: white;
+}
+
+.taskList {
+    min-width: 30%;
+    list-style: none;
+}
+
+.task {
+    background-color: #ffccee;
+    margin: .6rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: .8rem;
+}
+
+.task button {
+    border-style: none;
+    border-radius: 2px;
+    background-color: #ff66b3;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
