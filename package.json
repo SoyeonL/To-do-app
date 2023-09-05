@@ -9,8 +9,7 @@
     "watch": "webpack --watch",
     "start": "node app.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
