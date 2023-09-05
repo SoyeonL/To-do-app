@@ -1,4 +1,4 @@
-https://cpsc2600-slee124.herokuapp.com/
+https://soyeonl.github.io/To-do-app/
 
 Instructions
 - install dependencies
