@@ -1,4 +1,3 @@
-https://soyeonl.github.io/To-do-app/
 
 Instructions
 - install dependencies
